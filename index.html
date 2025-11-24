@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evelyn Cabrera - Portafolio</title>
+    <title>Evelyn Cabrera Arias - Portafolio</title>
     <style>
         * {
             margin: 0;
@@ -12,12 +12,12 @@
         }
 
         :root {
-            --bg-primary: #111827;
-            --bg-secondary: #1f2937;
-            --text-primary: #f3f4f6;
-            --text-secondary: #9ca3af;
-            --accent-blue: #3b82f6;
-            --accent-purple: #a855f7;
+            --bg-primary: #ffffff;        /* Fondo blanco */
+            --bg-secondary: #f8fafc;      /* Gris muy claro */
+            --text-primary: #1e293b;      /* Texto oscuro */
+            --text-secondary: #64748b;    /* Texto gris */
+            --accent-blue: #3b82f6;       /* Azul (mantener) */
+            --accent-purple: #8b5cf6;     /* Morado suave */
         }
 
         body {
@@ -37,14 +37,15 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(17, 24, 39, 0.95);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
             transition: all 0.3s ease;
         }
 
         nav.scrolled {
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #e2e8f0;
         }
 
         .nav-container {
@@ -222,6 +223,7 @@
 
         .info-card {
             background: var(--bg-secondary);
+            border: 1px solid #e2e8f0;
             padding: 1.5rem;
             border-radius: 0.5rem;
             display: flex;
@@ -233,7 +235,7 @@
 
         .info-card:hover {
             transform: translateX(5px);
-            background: #374151;
+            background: #f1f5f9;
         }
 
         .info-card-icon {
@@ -258,6 +260,7 @@
         .skill-bar {
             height: 12px;
             background: var(--bg-secondary);
+            border: 1px solid #e2e8f0;
             border-radius: 10px;
             overflow: hidden;
         }
@@ -278,6 +281,7 @@
 
         .project-card {
             background: var(--bg-secondary);
+            border: 1px solid #e2e8f0;
             border-radius: 1rem;
             overflow: hidden;
             transition: all 0.3s;
@@ -323,11 +327,12 @@
         }
 
         .tech-tag {
-            background: #374151;
-            color: var(--accent-blue);
+            background: #eff6ff;
+            color: #2563eb;
             padding: 0.3rem 0.8rem;
             border-radius: 1rem;
             font-size: 0.85rem;
+            border: 1px solid #dbeafe;
         }
 
         .project-links {
@@ -376,7 +381,8 @@
                 top: 70px;
                 left: -100%;
                 width: 100%;
-                background: var(--bg-secondary);
+                background: #ffffff;
+                border-right: 1px solid #e2e8f0;
                 flex-direction: column;
                 padding: 2rem;
                 transition: left 0.3s;
@@ -416,7 +422,7 @@
     <!-- Navegación -->
     <nav id="navbar">
         <div class="nav-container">
-            <div class="logo">Evelyn Cabrera</div>
+            <div class="logo">Evelyn Cabrera Arias</div>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home" class="active">Inicio</a></li>
                 <li><a href="#about">Sobre mí</a></li>
@@ -431,13 +437,13 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <div class="avatar">👨‍💻</div>
-            <h1>Hola, soy <span class="gradient-text">Tu Nombre</span></h1>
-            <p>Full Stack Developer | Creando experiencias web increíbles</p>
+            <div class="avatar">👩🏻‍💻</div>
+            <h1>Hola, soy <span class="gradient-text">Evelyn Cabrera</span></h1>
+            <p>Data Strategy & Leadership | Lead Analytics | MBA | Ing. de Sistemas</p>
             <div class="social-links">
                 <a href="https://github.com" target="_blank" title="GitHub">🐙</a>
                 <a href="https://linkedin.com" target="_blank" title="LinkedIn">💼</a>
-                <a href="mailto:tu@email.com" title="Email">✉️</a>
+                <a href="mailto:evelyn.cabrera.pe@gmail.com" title="Email">✉️</a>
             </div>
             <a href="#projects" class="btn-primary">Ver Proyectos</a>
         </div>
@@ -605,7 +611,7 @@
             <div class="contact-content fade-in">
                 <h2 class="section-title">¿Hablamos de tu <span class="gradient-text">Proyecto</span>?</h2>
                 <p>Estoy disponible para nuevas oportunidades. ¡Trabajemos juntos!</p>
-                <a href="mailto:tu@email.com" class="btn-primary">📧 Contáctame</a>
+                <a href="mailto:evelyn.cabrera.pe@gmail.com" class="btn-primary">📧 Contáctame</a>
                 <div class="social-links" style="margin-top: 2rem;">
                     <a href="https://github.com" target="_blank">🐙</a>
                     <a href="https://linkedin.com" target="_blank">💼</a>
